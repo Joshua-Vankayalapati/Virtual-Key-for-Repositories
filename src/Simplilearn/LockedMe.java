@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class LockedMe {
+	private static final String EXIT = null;
+
 	static void WelcomeScreen() {
 		System.out.println("===============================================");
 		System.out.println("Welcome to Lockedme.com\n\n" + "Developer: Joshua Vankayalapati");
@@ -24,7 +26,6 @@ public class LockedMe {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("\nEnter your option from the above Menu:");
 			int input = sc.nextInt();
-
 			switch (input) {
 			
 			case 1:
@@ -47,8 +48,11 @@ public class LockedMe {
 				
 			case 3:
 				System.out.println("Input correct value and retry");
+				
 				break;
+				
 			}
+System.exit(0);
 		} while (running == true);
 	}
 
@@ -114,10 +118,13 @@ public class LockedMe {
 
 			case 5:
 				System.out.println("Program terminated successfully");
+return;	
 			default:
+				System.exit(0);
 				break;
+
 			}
-		} while (running == true);
+		} while (running == false);
 	}
 
 	public static void main(String[] args) {
