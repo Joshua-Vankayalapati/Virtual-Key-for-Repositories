@@ -1,0 +1,27 @@
+*.pbxproj binary merge=union
+
+# Frontend languages
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.vue linguist-language=Vue
+*.jsp linguist-language=JSP
+
+# Backend languages
+*.java linguist-language=Java
+*.py linguist-language=Python
+*.rb linguist-language=Ruby
+*.php linguist-language=PHP
+*.cpp linguist-language=C++
+*.cs linguist-language=C#
+*.go linguist-language=Go
+*.swift linguist-language=Swift
+
+# Other languages
+*.json linguist-language=JSON
+*.xml linguist-language=XML
+*.yaml linguist-language=YAML
+*.sql linguist-language=SQL
