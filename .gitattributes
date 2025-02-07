@@ -1,27 +1,78 @@
-*.pbxproj binary merge=union
+# Backend Languages
+*.java linguist-language=Java
+*.kt linguist-language=Kotlin
+*.py linguist-language=Python
+*.rb linguist-language=Ruby
+*.php linguist-language=PHP
+*.cs linguist-language=C#
+*.go linguist-language=Go
+*.rs linguist-language=Rust
+*.swift linguist-language=Swift
+*.dart linguist-language=Dart
 
-# Frontend languages
+# Frontend & Web Technologies
 *.html linguist-language=HTML
 *.css linguist-language=CSS
+*.scss linguist-language=SCSS
+*.sass linguist-language=Sass
+*.less linguist-language=Less
 *.js linguist-language=JavaScript
 *.jsx linguist-language=JavaScript
 *.ts linguist-language=TypeScript
 *.tsx linguist-language=TypeScript
 *.vue linguist-language=Vue
-*.jsp linguist-language=JSP
+*.svelte linguist-language=Svelte
 
-# Backend languages
-*.java linguist-language=Java
-*.py linguist-language=Python
-*.rb linguist-language=Ruby
-*.php linguist-language=PHP
+# Angular
+*.module.ts linguist-language=TypeScript
+*.component.ts linguist-language=TypeScript
+*.directive.ts linguist-language=TypeScript
+*.service.ts linguist-language=TypeScript
+
+# React
+*.tsx linguist-language=TypeScript
+*.jsx linguist-language=JavaScript
+
+# Bootstrap
+*.scss linguist-language=SCSS
+*.less linguist-language=Less
+
+# JavaServer Pages (JSP)
+*.jsp linguist-language=JavaServer Pages
+
+# C, C++, and Other Compiled Languages
+*.c linguist-language=C
 *.cpp linguist-language=C++
+*.cc linguist-language=C++
+*.h linguist-language=C
+*.hpp linguist-language=C++
 *.cs linguist-language=C#
-*.go linguist-language=Go
-*.swift linguist-language=Swift
 
-# Other languages
+# Database & SQL
+*.sql linguist-language=SQL
+*.db linguist-language=SQL
+*.sqlite linguist-language=SQL
+
+# Scripting Languages
+*.sh linguist-language=Shell
+*.bat linguist-language=Batchfile
+*.ps1 linguist-language=PowerShell
+*.perl linguist-language=Perl
+*.pl linguist-language=Perl
+*.lua linguist-language=Lua
+*.r linguist-language=R
+
+# JSON, XML, YAML, and Configuration Files
 *.json linguist-language=JSON
 *.xml linguist-language=XML
 *.yaml linguist-language=YAML
-*.sql linguist-language=SQL
+*.yml linguist-language=YAML
+*.toml linguist-language=TOML
+*.ini linguist-language=INI
+
+# Other Technologies
+*.md linguist-documentation
+*.txt linguist-documentation
+*.log linguist-generated
+*.lock linguist-vendored
+*.gitignore linguist-generated
